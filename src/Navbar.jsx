@@ -10,10 +10,10 @@ export default function Navbar() {
         <img src={logo_dark} alt="Logo" />
       </Link>
       <ul>
-        <CustomLink to="/symptom-tracking" className="suse-unique-class">Symptom Tracking</CustomLink>
-        <CustomLink to="/analyze" className="suse-unique-class">Analyze</CustomLink>
-        <CustomLink to="/learn" className="suse-unique-class">Learn</CustomLink>
-        <CustomLink to="/about-us" className="suse-unique-class">About Us</CustomLink>
+      <CustomLink to="/symptom-tracking" className="suse-unique-class nav-link">Symptom Tracking</CustomLink>
+      <CustomLink to="/analyze" className="suse-unique-class nav-link">Analyze</CustomLink>
+      <CustomLink to="/learn" className="suse-unique-class nav-link">Learn</CustomLink>
+      <CustomLink to="/about-us" className="suse-unique-class nav-link">About Us</CustomLink>
       </ul>
     </nav>
   );

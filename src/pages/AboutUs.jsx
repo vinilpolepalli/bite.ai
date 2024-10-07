@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css'; // Ensure this import is correct
-import Henry from '/Users/vinil_polepalli/Desktop/gitClones/bitedetect/reactapp/bite-detect-app/src/assets/Henry.jpg';
-import Vinil from '/Users/vinil_polepalli/Desktop/gitClones/bitedetect/reactapp/bite-detect-app/src/assets/Vinil.png';
+import Henry from '/src/assets/Henry.jpg';
+import Vinil from '/src/assets/Vinil.png';
 
 export default function About() {
     return (
@@ -23,14 +23,14 @@ export default function About() {
                         <img src={Henry} alt="Henry" />
                         <div className="team-info">
                             <h2>Henry</h2>
-                            <p>Co-Founder</p>
+                            <p className="role">Co-Founder</p>
                         </div>
                     </div>
                     <div className="team-member">
                         <img src={Vinil} alt="Vinil" />
                         <div className="team-info">
                             <h2>Vinil</h2>
-                            <p>Co-Founder</p>
+                            <p className="role">Co-Founder</p>
                         </div>
                     </div>
                 </div>

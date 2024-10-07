@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'; // Ensure this import is correct
-import Logo from '/Users/vinil_polepalli/Desktop/gitClones/bitedetect/reactapp/bite-detect-app/src/assets/logo-black.png'; // Updated path to your logo
-import FormImage from '/Users/vinil_polepalli/Desktop/gitClones/bitedetect/reactapp/bite-detect-app/src/assets/form.png'; // Path to the form image
+import Logo from '/src/assets/logo-black.png'; // Updated path to your logo
+import FormImage from '/src/assets/form.png'; // Path to the form image
 
 export default function Footer() {
     return (

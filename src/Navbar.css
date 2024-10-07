@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'SUSE-SemiBold';
-  src: url('/Users/vinil_polepalli/Desktop/gitClones/bitedetect/reactapp/bite-detect-app/src/assets/static/SUSE-SemiBold.ttf') format('truetype'); /* Adjust the path as needed */
+  src: url('src/assets/static/SUSE-SemiBold.ttf') format('truetype'); /* Adjust the path as needed */
 }
 
 .nav {
@@ -59,4 +59,7 @@ a:hover {
 /* SUSE-SemiBold Font Classes */
 .SUSE-SemiBold {
   font-family: "SUSE-SemiBold", sans-serif;
+}
+.nav-link {
+  margin-right: 20px; /* Adjust the value as needed */
 }

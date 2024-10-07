@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'BebasNeue';
-    src: url('/Users/vinil_polepalli/Desktop/gitClones/bitedetect/reactapp/bite-detect-app/src/assets/Bebas Neue/BebasNeue-Regular.ttf') format('truetype');
+    src: url('src/assets/Bebas Neue/BebasNeue-Regular.ttf') format('truetype');
 }
 
 .about-container {
@@ -85,9 +85,11 @@ p {
 }
 
 .team-info p {
+    display: inline-block; /* Ensure the p element is displayed inline-block */
     font-family: 'SUSE-SemiBold', sans-serif; /* Apply SUSE-SemiBold font */
     font-size: 1.5rem; /* Adjust font size as needed */
     margin: 0; /* Remove default margin */
+    vertical-align: middle; /* Ensure vertical alignment */
 }
 
 /* Keyframes for animations */

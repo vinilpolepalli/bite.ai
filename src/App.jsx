@@ -6,6 +6,7 @@ import Analyze from './pages/Analyze';
 import About from './pages/AboutUs';
 import Symptom from './pages/Symptom';
 import Learn from './pages/Learn';
+import LandingPage from './pages/LandingPage'; // Import the LandingPage component
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <div className="container">
         <Routes>
+          <Route path="/" element={<LandingPage />} /> {/* Add the LandingPage route */}
           <Route path="/about-us" element={<About />} />
           <Route path="/symptom-tracking" element={<Symptom />} />
           <Route path="/analyze" element={<Analyze />} />
